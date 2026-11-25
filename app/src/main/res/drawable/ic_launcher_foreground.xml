@@ -3,6 +3,6 @@
     <item
         android:width="72dp"
         android:height="72dp"
-        android:drawable="@drawable/img_sadsha_logo"
+        android:drawable="@drawable/ic_launcher_logo"
         android:gravity="center" />
 </layer-list>
