@@ -1,0 +1,6 @@
+{
+  "name": "SadSha Downloader",
+  "description": "All-in-One High Speed Media Downloader by SadSha",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

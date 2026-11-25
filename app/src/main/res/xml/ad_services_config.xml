@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ad-services-config>
+    <!-- Configure AdServices to prevent measurement service binding failures on devices/emulators without Privacy Sandbox services -->
+    <attribution allowAdPartnersToAccess="false" />
+    <topics allowAdPartnersToAccess="false" />
+    <protected-audiences allowAdPartnersToAccess="false" />
+</ad-services-config>
