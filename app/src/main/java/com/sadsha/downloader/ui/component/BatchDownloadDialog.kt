@@ -53,11 +53,10 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.sadsha.downloader.ui.common.HapticFeedback.slightHapticFeedback
 import com.sadsha.downloader.util.DownloadUtil
-import com.sadsha.downloader.util.TrendingVideo
 
 @Composable
 fun BatchDownloadDialog(
-    selectedVideos: List<TrendingVideo>,
+    selectedVideos: List<String>,
     basePreferences: DownloadUtil.DownloadPreferences,
     onDismissRequest: () -> Unit,
     onConfirmBatchDownload: (DownloadUtil.DownloadPreferences) -> Unit,
@@ -307,7 +306,7 @@ fun BatchDownloadDialog(
                     Column(modifier = Modifier.padding(8.dp)) {
                         selectedVideos.take(4).forEach { video ->
                             Text(
-                                text = "• ${video.title}",
+                                text = "• $video",
                                 style = MaterialTheme.typography.bodySmall,
                                 maxLines = 1,
                                 overflow = TextOverflow.Ellipsis,
